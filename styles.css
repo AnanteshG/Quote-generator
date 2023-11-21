@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/black-paper-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #abb2bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 60%;
+    background-color: rgba(59, 59, 59, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#new-quote-button {
+    font-weight: bold;
+}
+
+#read-button,
+#copy-button,
+#share-button {
+    width: 50px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.quote {
+    border-left: 4px solid #c9c2c2;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.actions {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.actions button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #abb2bf;
+    border: 1px solid black;
+    color: #282c34;
+    transition: background-color 0.3s;
+}
+
+.actions button:hover {
+    background-color: #9198a2;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 70%;
+    }
+
+    .actions {
+        flex-direction: column;
+    }
+
+    .actions button {
+        margin-bottom: 10px;
+    }
+}
+footer {
+    position: fixed;
+    bottom: -5px;
+    right: 15px;
+    padding: 10px;
+    color: #abb2bf;
+    border-radius: 8px;
+    text-shadow: #abb2bf 0px 0px 10px;
+}
