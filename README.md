@@ -10,7 +10,7 @@ This is a minimalistic random quote generator that you can integrate into your w
 - Listen to the Quote: Enable an audio feature to have the quote read aloud, creating a more immersive experience.
 
 ## Preview
-![Demo screenshot of quote-generator website](Screenshot.png)
+![Demo screenshot of quote-generator website](quote-Screenshot.png)
 
 
 
